@@ -1,0 +1,13 @@
+Esta es una pequeña aplicación web que simula un cajero automático, desarrollado mediante Java/Jakarta EE, 
+haciendo uso del servidor de aplicaciones Tomcat v9, y llamando a una base de datos MySQL a través del framework JPA. 
+Asimismo también se ha agregado un servicio web REST para acceder a la lógica de negocio utilizada en el modelo. 
+
+El proyecto usa Maven para automatizar la obtención de las librerías necesarias 
+(librería JSTL, servicio de persistencia EclipseLink, conector a mySQL, etc). 
+
+Del mismo modo, he incorporado un script SQL para generar la base de este proyecto. 
+el usuario a la bd es:
+cajero_it
+Sin contraseña
+
+

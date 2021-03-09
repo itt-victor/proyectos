@@ -1,0 +1,88 @@
+{
+    "TAMAÑO": [
+        {
+        "ID": "individual",
+        "NAME": "Individual",
+        "PRECIO": 5
+        },
+        {
+        "ID": "mediana",
+        "NAME": "Mediana",
+        "PRECIO": 10
+        },
+        {
+        "ID": "grande",
+        "NAME": "Grande",
+        "PRECIO": 15
+        },
+        {
+        "ID": "familiar",
+        "NAME": "Familiar",
+        "PRECIO": 20
+        }
+        
+    ]
+,
+    "INGREDIENTES": [
+        {
+        "ID": "jamon",
+        "NAME": "Jamón",
+        "PRECIO": 1.5
+        },
+        {
+        "ID": "bacon",
+        "NAME": "Bacon",
+        "PRECIO": 1.5
+        },
+        {
+        "ID": "carne_picada",
+        "NAME": "Carne picada",
+        "PRECIO": 1
+        },
+        {
+        "ID": "butifarra",
+        "NAME": "Butifarra",
+        "PRECIO": 1.5
+        },
+        {
+        "ID": "mozzarella",
+        "NAME": "Extra mozzarella",
+        "PRECIO": 1
+        },
+        {
+        "ID": "cebolla",
+        "NAME": "Cebolla",
+        "PRECIO": 0.5
+        },
+        {
+        "ID": "champiñones",
+        "NAME": "Champiñones",
+        "PRECIO": 1.5
+        },
+        {
+        "ID": "aceitunas",
+        "NAME": "Aceitunas negras",
+        "PRECIO": 1
+        },
+        {
+        "ID": "pimiento_rojo",
+        "NAME": "Pimiento rojo",
+        "PRECIO": 0.5
+        },
+        {
+        "ID": "pimiento_verde",
+        "NAME": "Pimiento verde",
+        "PRECIO": 0.5
+        },
+        {
+        "ID": "atun",
+        "NAME": "Atún",
+        "PRECIO": 1.5
+        },
+        {
+        "ID": "albahaca",
+        "NAME": "Albahaca",
+        "PRECIO": 1
+        }
+    ]
+}

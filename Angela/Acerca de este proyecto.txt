@@ -1,0 +1,1 @@
+Este es una web estática, sin uso de JavaScript, donde ante todo me centré en el dominio de los tags html y el estilo css responsive. 

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>2020 Tour</title>
+    <link>https://angelabcn.000webhostapp.com/tour.html</link>
+    <description>Agenda de conciertos de la banda Angela</description>
+    <language>es-es</language>
+    <atom:link href="https://angelabcn.000webhostapp.com/tour_feed.xml" rel="self" type="application/rss+xml" />    
+        <item>
+            <title>19/05 Slow Club</title>
+            <link>https://angelabcn.000webhostapp.com/tour/slow_club.html</link>
+            <description>19/05 Slow Club</description>
+            <guid>https://angelabcn.000webhostapp.com/tour/slow_club.html</guid>
+        </item>
+
+        <item>
+            <title>01/07 Monasterio</title>
+            <link>https://angelabcn.000webhostapp.com/tour/monasterio.html</link>
+            <description>01/07 Monasterio</description>
+            <guid>https://angelabcn.000webhostapp.com/tour/monasterio.html</guid>
+        </item>
+
+        <item>
+            <title>05/08 Pumarejo</title>
+           <link>https://angelabcn.000webhostapp.com/tour/pumarejo.html</link>
+           <description>05/08 Pumarejo</description>
+           <guid>https://angelabcn.000webhostapp.com/tour/pumarejo.html</guid>
+        </item>
+
+        <item>
+            <title>05/02 L\Industrial</title>
+            <link>https://angelabcn.000webhostapp.com/tour/industrial.html</link>
+            <description>05/02 L\Industrial</description>
+            <guid>https://angelabcn.000webhostapp.com/tour/industrial.html</guid>
+        </item>
+
+        <item>
+            <title>19/02 Sidecar</title>
+            <link>https://angelabcn.000webhostapp.com/tour/sidecar.html</link>
+            <description>19/02 Sidecar</description>
+            <guid>https://angelabcn.000webhostapp.com/tour/sidecar.html</guid>
+        </item>
+
+        <item>
+            <title>02/03 Sidecar</title>
+            <link>https://angelabcn.000webhostapp.com/tour/sidecar2.html</link>
+            <description>02/03 Sidecar</description>
+            <guid>https://angelabcn.000webhostapp.com/tour/sidecar2.html</guid>
+        </item>
+
+        <item>
+            <title>11/03 Ceferino</title>
+            <link>https://angelabcn.000webhostapp.com/tour/ceferino.html</link>
+            <description>11/03 Ceferino</description>
+            <guid>https://angelabcn.000webhostapp.com/tour/ceferino.html</guid>
+        </item>
+</channel>
+</rss>

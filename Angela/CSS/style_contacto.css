@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+body {
+    max-width: 100%;
+    min-height: 100%;
+    background: linear-gradient(to right, rgb(168, 66, 109), #56d7e5 3% 97%, rgb(168, 66, 109));
+    background-color: #56d7e5; /*Para navegadores que no soportan degradados*/
+}
+
+#contenedor{
+    font-family: 'Karla', sans-serif;
+    margin: auto; 
+    height:auto;
+    width: 70vw;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+    #contenedor{
+        width: 700px;
+    }
+}
+/*Contenedor para estrechar el hueco en alta resolución*/
+.contacto{
+    margin: auto; 
+    height:auto;
+}
+@media screen and (min-width: 1100px) {
+    .contacto{
+        width: 60vw;
+    }
+}
+
+header{
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+header #logo{
+    width: /*10%;*/ 150px;
+    max-width: 17%;
+    position: relative;
+    margin-top: 2%;/*16px;*/
+    padding-top: 1%;
+}
+nav {
+    max-width: 100%;
+    text-align: center;
+    /*position: relative;
+    left: /*3vw;*/
+}
+nav .contenedor_secciones{
+    display: flex;
+    /*margin-top: /*-4%;*//*-3vw;*/
+    justify-content: center;
+    text-align: center;   
+}
+
+nav .contenedor_secciones a{ 
+    color: rgb(255, 15, 115);
+    text-decoration: none;
+    text-shadow: 0.04vw 0.04vw 0.04vw ;
+    font-size: /*0.8vw;*//*17px;*/ 85%;
+}
+
+nav .contenedor_secciones a:hover{
+    color: rgb(158, 13, 61);
+}
+
+nav .contenedor_secciones .button{
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+form.formulario{
+    margin-top: 150px;
+    width: 50%;
+    max-width: 50%;
+    margin-bottom: 20px;
+    padding-bottom: 130px;
+    /*margin: auto;*/
+    float:left;
+    /*text-align: center;*/
+    align-content: center;
+}
+
+form fieldset.caja_formulario {
+    margin-top: 10px;
+    display: block;
+    border: auto;
+    clear: both;
+    /*float: left;*/
+    width: 50%;
+    /*max-width: 50%;*/
+    border: none;
+    text-align: left;
+}
+
+form fieldset.caja_formulario label{
+    color: rgb(158, 13, 61);
+    font-size: /*80%;*/ 14px;
+    
+}
+
+form fieldset.caja_formulario input, select, textarea{
+    display: block;
+    /*width: auto;*/
+    background-color: rgba(255, 153, 184, 0.678);
+    border-radius: 4px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.5px;
+    font-family: 'Karla';
+    padding: 3px; 
+    margin-bottom: 5px;
+    /*margin: 0 auto;*/
+}
+
+form legend{
+    position: relative;
+    left: 2%;
+    font-size: 1.4vw;
+    color: rgb(158, 13, 61);
+    font-weight: bold;
+
+}
+
+form fieldset.caja_formulario input{
+    width: 200px;
+}
+
+form fieldset.caja_formulario textarea{
+    width: 400px;
+    resize: none;
+    height: 200PX;
+}
+
+#boton_enviar {
+    margin-top: 5px;
+    border-radius: 3px;
+    border-style: solid;
+    float: right;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color:#f9f9f9;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	cursor:pointer;
+	color:rgb(158, 13, 61);
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+#boton_enviar:hover {
+    background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+    background-color:#e9e9e9;
+}
+#boton_enviar:active {
+    position:relative;
+    top:1px;
+}
+
+aside {
+    float: right;
+    margin-top: 170px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 35px;
+}
+aside h1{
+    color: rgb(158, 13, 61);
+    font-size: /*17px;*/1.4vw;
+}
+aside .mail1, .mail2, .mail3{
+    margin-left: 0px;
+    /*padding-left: */
+}
+
+aside h2{
+    color: rgb(158, 13, 61);
+    font-size: /*14px;*/ 1.2vw;
+}
+aside #mails{
+    list-style: none;
+}
+
+aside #mails a {
+    text-decoration: none;
+    color:black;
+    font-size: 1vw;
+}
+
+footer.pie {
+    border-top: 1px hidden rgb(168, 66, 109);
+    box-shadow: 0px 0px 4px 0.5px rgb(168, 66, 109);
+    clear: both;
+    width: 90%;
+    margin: auto;
+}
+footer.pie .RRSS{
+    float: left;
+}
+
+footer.pie .RRSS ul[class=iconos_RRSS] li[class="iconos_RRSS"]{
+    list-style: none;
+    display: inline;
+    font-size: /*2vw;*/1.7rem;
+    margin-right: 20px;
+}
+
+footer.pie a{
+    color: rgb(168, 66, 109);
+}
+
+footer.pie a:hover{
+    color: rgb(158, 13, 61);
+}
+
+footer.pie .seguridad{
+    font-size: /*10px;*/70%;
+    float: right;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}

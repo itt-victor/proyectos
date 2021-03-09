@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+body {
+    max-width: 100%;
+    min-height: 100%;
+
+    background: linear-gradient(to right, rgb(168, 66, 109), #56d7e5 3% 97%, rgb(168, 66, 109));
+    background-color: #56d7e5; /*Para navegadores que no soportan degradados*/
+}
+
+#contenedor{
+    font-family: 'Karla', sans-serif;
+    margin: auto; 
+    height:auto;
+    width: /*1200px;*/70vw;
+    max-width: 100%;
+}
+
+header{
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+header #logo{
+    /*float:left;*/
+    width: /*10%;*/ 150px;
+    max-width: 17%;
+    position: relative;
+    margin-top: 2%;/*16px;*/
+    padding-top: 1%;
+}
+nav {
+    max-width: 100%;
+    text-align: center;
+    /*position: relative;
+    left: /*3vw;*/
+}
+nav .contenedor_secciones{
+    display: flex;
+    /*margin-top: /*-4%;*//*-3vw;*/
+    justify-content: center;
+    text-align: center;   
+}
+
+nav .contenedor_secciones a{ 
+    color: rgb(255, 15, 115);
+    text-decoration: none;
+    text-shadow: 0.04vw 0.04vw 0.04vw ;
+    font-size: /*0.8vw;*//*17px;*/ 85%;
+}
+
+nav .contenedor_secciones a:hover{
+    color: rgb(158, 13, 61);
+}
+
+nav .contenedor_secciones .button{
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+section{
+    margin-top: 90px;
+    margin-bottom: 100px;
+    max-width: 100%;
+}
+
+section h1{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    font-size: 1.4vw;/*20px;*/
+    color: rgb(158, 13, 61);
+    font-weight: bold;
+    margin-bottom: 3vw;
+}
+section h2{
+    color: rgb(158, 13, 61);
+    font-size: /*80%;*/ 14px;
+    margin-bottom: -10px;
+}
+section .evento img{
+    width: 500px;/*25vw;*/
+    max-width: 100%;
+}
+section .reseña{
+    margin: auto;
+    text-align: justify;
+    width: 60%;
+    max-width: 100%;
+    font-size: 14px;
+    color: rgb(73, 27, 46);
+    padding-bottom: 5vw;;
+}
+section .pie_foto{
+    text-align: center;
+    padding-top: 0.5vw;
+}
+section .evento {
+    list-style: none;
+    margin: auto;
+}
+
+section .cv{
+    display: grid;
+    grid-template-columns: 300px, 300px;
+    padding-left: 0px;
+    justify-self: center;
+}
+
+footer.pie {
+    border-top: 1px hidden rgb(168, 66, 109);
+    box-shadow: 0px 0px 4px 0.5px rgb(168, 66, 109);
+    clear: both;
+    width: 90%;
+    margin: auto;
+}
+footer.pie .RRSS{
+    float: left;
+}
+
+footer.pie .RRSS ul[class=iconos_RRSS] li[class="iconos_RRSS"]{
+    list-style: none;
+    display: inline;
+    font-size: /*2vw;*/1.7rem;
+    margin-right: 20px;
+}
+
+footer.pie a{
+    color: rgb(168, 66, 109);
+}
+
+footer.pie a:hover{
+    color: rgb(158, 13, 61);
+}
+
+footer.pie .seguridad{
+    font-size: /*10px;*/70%;
+    float: right;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}

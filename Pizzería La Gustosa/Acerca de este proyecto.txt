@@ -1,0 +1,8 @@
+Este es un proyecto orientado a desarrollar diversas ramas del JavaScript con el framework jquery:
+- Ventanas modales
+- Uso de ajax para llamar a un fichero .json que hace las veces de base de datos
+- Validación de formulario mediante expresiones regulares y funciones
+
+Es por ello que el estilo dado a la página es minimalista, ya que no era el objetivode dicha práctica.
+
+Se realizó Visual Studio Code, y para hacer uso de ajax, es necesario la extensión "Live Server". 
